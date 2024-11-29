@@ -735,6 +735,8 @@ if (!empty($existingFaces)) {
     echo "Total processed: " . ($successCount + $failCount) . " records\n\n";
 }
 
+
+
 // Close database connection
 $pdo = null;
 
